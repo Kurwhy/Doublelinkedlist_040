@@ -143,4 +143,5 @@ void DoubleLinkedList::hapus() {
 		cout << "Record not found" << endl;
 	else
 		cout << "Record whit toll number " << rollNo << "delete" << endl;
+
 }
