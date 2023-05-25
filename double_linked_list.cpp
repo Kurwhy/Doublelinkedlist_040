@@ -145,3 +145,12 @@ void DoubleLinkedList::hapus() {
 		cout << "Record whit toll number " << rollNo << "delete" << endl;
 
 }
+void DoubleLinkedList::searchData() {
+	if (listEmpty() == true) {
+		cout << "\nList is empty" << endl;
+
+
+	}
+	Node* prev, * curr;
+	prev = curr = NULL;
+	
