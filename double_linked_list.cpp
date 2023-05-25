@@ -15,5 +15,14 @@ private:
 	Node* START;
 public:
 
-
+	DoubleLinkedList();
+	void addNode();
+	bool search(int rolNo, Node** previous, Node** current);
+	bool deleteNode(int rolNo);
+	bool listEmpty();
+	void ascending();
+	void descending();
+	void hapus();
+	void searchData();
 };
+
